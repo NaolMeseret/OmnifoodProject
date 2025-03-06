@@ -56,3 +56,12 @@ body {
   font-weight: 400;
   color: #555;
 }
+.hero {
+  max-width: 130rem;
+  margin: 0 auto; /* is used to center the content */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.hero-img {
+  width: 100%;
+}
