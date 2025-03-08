@@ -225,3 +225,30 @@ body {
   color: #cf711f;
   font-weight: 700;
 }
+/* ****************************** */
+/* HOW IT WORKS SECTION */
+/* ****************************** */
+.section-how {
+  padding: 9.6rem 0;
+  background-color: orangered;
+}
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+.section-how div {
+  padding: 100px;
+  font-size: 50px;
+}
+.section-how div:nth-child(1) {
+  background-color: aqua;
+}
+.section-how div:nth-child(2) {
+  background-color: blue;
+}
+.section-how div:nth-child(3) {
+  background-color: violet;
+}
+.section-how div:nth-child(4) {
+  background-color: yellow;
+}
