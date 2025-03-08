@@ -125,6 +125,40 @@ body {
 .logo {
   height: 2.2rem;
 }
+
+/* ****************************** */
+/* NAVIGATION */
+/* ****************************** */
+.main-nav {
+}
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+.nav-cta:link,
+.nav-cta:visited {
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  background-color: #e67e22;
+  color: #fff;
+}
+
 /* ****************************** */
 /* HERO SEECTION */
 /* ****************************** */
