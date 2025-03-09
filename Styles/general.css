@@ -95,7 +95,8 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 .heading-primary,
-.heading-secondary {
+.heading-secondary,
+.heading-teritiary {
   font-weight: 700;
   color: #333;
   letter-spacing: -0.5px;
@@ -112,6 +113,9 @@ body {
 }
 
 .heading-teritiary {
+  font-size: 3.2rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
 }
 .subheading {
   display: block;
