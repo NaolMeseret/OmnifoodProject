@@ -109,7 +109,7 @@
 }
 /* ****************************** */
 /* HOW IT WORKS SECTION */
-/* ****************************** */
+/* **************************+**** */
 .section-how {
   padding: 9.6rem 0;
 }
@@ -125,10 +125,31 @@
   line-height: 1.8;
 }
 .step-img-box {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.step-img-box::before {
+  content: "";
+  display: block;
+  width: 60%;
+  /* height: 60%; */
+
+  /* 60% of parent's widhth.... this way to SQUARE */
+  padding-bottom: 60%;
+  background-color: #fdf2e9;
+  border-radius: 50%;
+
+  border: 3px, solid, gray;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
 .step-img {
   width: 35%;
+  /* z-index: 1; */
 }
