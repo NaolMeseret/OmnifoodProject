@@ -143,15 +143,17 @@
 .step-img-box::before {
   width: 60%;
   /* height: 60%; */
+
   /* 60% of parent's widhth.... this way to SQUARE */
   padding-bottom: 60%;
   background-color: #fdf2e9;
-  z-index: -1; /*This z-index must be unique*/
+  z-index: -2; /*This z-index must be unique*/
 }
 .step-img-box::after {
-  width: 60%;
-  padding-bottom: 60%;
+  width: 45%;
+  padding-bottom: 45%;
   background-color: #fae5d3;
+  z-index: -1;
 }
 .step-img {
   width: 35%;
