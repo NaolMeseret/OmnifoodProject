@@ -190,6 +190,21 @@
 .section-meals {
   padding: 9.6rem 0;
 }
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+}
+.meal-tags {
+  margin-bottom: 1.2rem;
+}
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #51cf66;
+  color: #333;
+  border-radius: 100px;
+}
 .meal-title {
   font-size: 2.4rem;
   color: #333;
@@ -204,6 +219,15 @@
 }
 .meal-attribute {
   font-size: 1.8rem;
+  display: flex;
+  gap: 1.6rem;
+}
+.meal-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  /* stroke: #e67e22; */
+  /* fill: #e67e22; */
+  color: #e67e22;
 }
 .meal-img {
   width: 100%;

@@ -170,3 +170,6 @@ body {
 .margin-right-sm {
   margin-right: 1.6rem !important; /* Always we have to write like this if the class name is class helper */
 }
+strong {
+  font-weight: 500;
+}
