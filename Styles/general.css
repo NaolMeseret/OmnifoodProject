@@ -15,7 +15,7 @@
  Small: 1.05
  Medium: 1.2
  Paragraph Default: 1.6
-
+-
 
  Letter Spacing
  -0.5px
@@ -32,9 +32,11 @@
 #45260a
 - Accents:
 - Greys
-#6f6f6f(lightest Gray allowed on  #fdf2e9)
-#555
 #333
+#555
+#767676(Lightest Gray allowed on #fff)
+#888
+#6f6f6f(lightest Gray allowed on  #fdf2e9)
 --- 03 IMAGE
 
 --- 04 ICONS
@@ -70,6 +72,7 @@ html {
   /* 10px / 16px = 0.625 = 62.5 */
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Rubik", sans-serif;
