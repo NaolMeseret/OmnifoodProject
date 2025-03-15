@@ -232,7 +232,7 @@ body {
 *:focus {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
-  border-radius: 5px;
+  /* border-radius: 5px;  */
 }
 
 /* HELPER/SETTINGS CLASSES */
