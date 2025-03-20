@@ -233,6 +233,7 @@ body {
   gap: 1.6rem;
 }
 *:focus {
+  /* this style is used for  input, textarea, button */
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
   /* border-radius: 5px;  */
